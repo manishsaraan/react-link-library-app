@@ -10,16 +10,18 @@
  */
 
 import React from 'react';
-import { FormattedMessage } from 'react-intl';
-import messages from './messages';
+import NavigationContainer from '../../containers/NavigationContainer'; 
 
 export default class HomePage extends React.Component { // eslint-disable-line react/prefer-stateless-function
 
   render() {
     return (
-      <h1>
-        <FormattedMessage {...messages.header} />
+    <div>
+     <NavigationContainer/>
+      <h1>       
+        Hello There!!
       </h1>
+     </div>
     );
   }
 }
