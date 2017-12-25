@@ -17,7 +17,7 @@ function Drawer({ items, selectItem, itemLabelAttr, itemKeyAttr, isDrawerOpen })
       </div>
   	));
   return (
-    <div className={classnames(styles.drawer, { [styles.drawerOpen]  : isDrawerOpen})}>  
+    <div className={classnames(styles.drawer, { [styles.drawerOpen]  : isDrawerOpen})}>   
     {itemNodes}
     </div>
   );
